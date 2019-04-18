@@ -1,5 +1,5 @@
 #!/bin/bash
-sleep 2m
+sleep 30
 cd /home/pi/piiplog
 git pull
 echo $(ifconfig) > ip.txt
